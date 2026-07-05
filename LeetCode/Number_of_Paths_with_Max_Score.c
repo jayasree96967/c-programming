@@ -1,4 +1,4 @@
- ## ## Number of Paths with Maximum Score
+ /* ### Number of Paths with Maximum Score
 
 **Platform:** LeetCode
 
@@ -21,7 +21,7 @@
 
 **Space Complexity:** `O(n²)`
 
-**Language:** C ##
+**Language:** C */
 
 #define MOD 1000000007
 
