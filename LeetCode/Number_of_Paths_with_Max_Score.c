@@ -1,3 +1,28 @@
+ ## ## Number of Paths with Maximum Score
+
+**Platform:** LeetCode
+
+**Problem:** Find the maximum score that can be collected while moving from the bottom-right cell (`S`) to the top-left cell (`E`) on a square board. Return both the maximum score and the number of paths that achieve this score. If no valid path exists, return `[0, 0]`.
+
+### Approach
+- Dynamic Programming (DP)
+- Compute the maximum score for each cell.
+- Track the number of paths that achieve the maximum score.
+- Handle obstacles and apply modulo `10^9 + 7` for path counting.
+
+### Concepts Used
+- Dynamic Programming
+- 2D Arrays
+- Matrix Traversal
+- Path Counting
+- Optimization
+
+**Time Complexity:** `O(n²)`
+
+**Space Complexity:** `O(n²)`
+
+**Language:** C ##
+
 #define MOD 1000000007
 
 int* pathsWithMaxScore(char** board, int boardSize, int* returnSize) {
