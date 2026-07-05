@@ -1,3 +1,12 @@
+/*
+HackerRank: Conditional Statements
+
+Problem:
+Given an integer N, print "Weird" or "Not Weird"
+based on the specified conditions.
+
+Language: C
+*/
 #include <assert.h>
 #include <ctype.h>
 #include <limits.h>
