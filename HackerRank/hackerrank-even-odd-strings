@@ -1,4 +1,4 @@
-#Python solution for printing even- and odd-indexed characters of a string
+/*Python solution for printing even- and odd-indexed characters of a string*/
 t = int(input())
 
 for _ in range(t):
