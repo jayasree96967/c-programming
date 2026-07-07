@@ -1,4 +1,4 @@
-#C solution for forming a number from non-zero digits and returning x × digit sum
+/*C solution for forming a number from non-zero digits and returning x × digit sum*/
 long long sumAndMultiply(int n) {
     if (n == 0)
         return 0;
