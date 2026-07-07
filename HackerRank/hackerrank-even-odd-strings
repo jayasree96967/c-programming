@@ -1,0 +1,8 @@
+#Python solution for printing even- and odd-indexed characters of a string
+t = int(input())
+
+for _ in range(t):
+    s = input()
+    even = s[::2]
+    odd = s[1::2]
+    print(even, odd)
